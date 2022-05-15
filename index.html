@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,22 +9,20 @@
   <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Cabin+Sketch|Fugaz+One|Itim|Sacramento&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <h1>
     <a href="https://github.com/ua6em/arduino-web-uploader"> AVR WEB UPLOADER (ST-500V1)</a>
   </h1>
-
   <br>
   <button arduino-uploader hex-href="./test/Blink.ino.lgt8f328p.hex" board="lgt8f328p" verify>
     Upload Blink to lgt8f328p [<span class="upload-progress"></span>]
   </button>
-   <br><br>
+  <br><br>
   <button arduino-uploader hex-href="./test/Blink.ino.lgt8f328p.hex" board="lgt8f328p"
     port-filters='[{"usbProductId":46388,"usbVendorId":1241}]'>
     lgt8f328p filtered to {' usbProductId':46388,'usbVendorId':1241} [<span class="upload-progress"></span>]
   </button>
-   <br><br>
+  <br><br>
   <button arduino-uploader hex-href="./test/Blink.ino.uno.hex" board="nano" verify>
     Upload Blink to Nano Board [<span class="upload-progress"></span>]
   </button>
@@ -37,31 +34,30 @@
   <button arduino-uploader hex-href="./test/Blink.ino.uno.hex" board="proMini" verify>
     Upload Blink to Pro-mini Board [<span class="upload-progress"></span>]
   </button>
-   <br><br>
+  <br><br>
   <button arduino-uploader hex-href="./test/Blink.ino.uno.hex" board="nano328pb" verify>
     Upload Blink to Nano atmega328pb [<span class="upload-progress"></span>]
   </button>
-    <br><br>
+  <br><br>
   <button arduino-uploader hex-href="./test/Blink.ino.uno.hex" board="nano48p" verify>
     Upload Blink to Nano miniCore atmega48p [<span class="upload-progress"></span>]
   </button>
-    <br><br>
+  <br><br>
   <button arduino-uploader hex-href="./test/Blink.ino.uno.hex" board="nano88p" verify>
     Upload Blink to Nano miniCore atmega88p [<span class="upload-progress"></span>]
   </button>
-    <br><br>
+  <br><br>
   <button arduino-uploader hex-href="./test/Blink.ino.uno.hex" board="nano168p" verify>
     Upload Blink to Nano miniCore atmega168p [<span class="upload-progress"></span>]
   </button>
-   <br><br>
-
+  <br><br>
   <button arduino-uploader hex-href="./test/Blink.ino.uno.hex" board="nanoOldBootloader" verify>
     Upload Blink to Nano with old bootloader (most chinese clones) [<span class="upload-progress"></span>]
   </button>
-   <br><br>
+  <br><br>
   <button arduino-uploader hex-href="./test/0-blink.4809.hex" board="avr4809" verify>
     Upload Blink to avr4809 [<span class="upload-progress"></span>]
   </button>
-   <br><br>
+  <br><br>
 </body>
 </html>
