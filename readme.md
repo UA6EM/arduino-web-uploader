@@ -1,7 +1,7 @@
 # arduino-web-uploader
 Upload compiled hex files to your boards directly from a webpage. (Chrome only)
 
-Try it now without having to install anything at [https://dbuezas.github.io/arduino-web-uploader/](https://dbuezas.github.io/arduino-web-uploader/)
+Try it now without having to install anything at [https://ua6em.github.io/arduino-web-uploader/](https://ua6em.github.io/arduino-web-uploader/)
 (Chrome only, any pc OS. Android, not yet)
 
 Currently supports these boards:
