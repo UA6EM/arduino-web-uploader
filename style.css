@@ -6,8 +6,9 @@ body {
   margin: 0px;
 }
 
-h1 {
-  color: #00FFFF;
+.custom-colored-h1
+{
+    color: #AF3535;
 }
 
 .main {
