@@ -65,6 +65,7 @@ can be any of these:
 - `"nano168p"`
 - `"uno"`
 - `"proMini"`
+- `"avr4809"`
 
 (here are the definitions: https://github.com/dbuezas/arduino-web-uploader/blob/master/src/index.ts#L13-L44. You can see that nano, uno and proMini have the same parameters.)
 
