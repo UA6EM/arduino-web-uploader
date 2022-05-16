@@ -24,7 +24,7 @@ Currently supports these boards:
 Just add the following to the head of your HTML:
 
 ```html
-<script src="https://github.com/dbuezas/arduino-web-uploader/releases/download/v1.0.0/main.js"></script>
+<script src="https://github.com/ua6em/arduino-web-uploader/test/main.js"></script>
 ```
 
 And add some buttons with their corresponding attributes
@@ -73,7 +73,7 @@ can be any of these:
 
 Is **optional**, so you can chose to leave that attribute out or write it there. In my experience, uploads never get corrupted and removing verification makes it twice as fast.
 
-(here are the definitions: https://github.com/dbuezas/arduino-web-uploader/blob/master/src/index.ts#L13-L44. You can see that nano, uno and proMini have the same parameters.)
+(here are the definitions: https://github.com/ua6em/arduino-web-uploader/blob/master/src/index.ts#L13-L44. You can see that nano, uno and proMini have the same parameters.)
 
 #### [`port-filters`]
 
@@ -98,7 +98,7 @@ Is a placeholder element where progress percentage will be shown
 </button>
 ```
 
-see more examples in https://github.com/dbuezas/arduino-web-uploader/blob/master/index.html
+see more examples in https://github.com/ua6em/arduino-web-uploader/blob/master/index.html
 
 ## Generating hex files
 
@@ -131,7 +131,7 @@ document.addEventListener('button', async () => {
 })
 ```
 
-also check the code of the stand alone html plugin: https://github.com/dbuezas/arduino-web-uploader/blob/master/src/test.ts
+also check the code of the stand alone html plugin: https://github.com/ua6em/arduino-web-uploader/blob/master/src/test.ts
 
 ## Structure
 
