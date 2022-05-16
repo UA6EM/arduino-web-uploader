@@ -132,18 +132,18 @@
                         timeout: 400,
                         baudRate: 115200
                     },
-					nano328pb: {
-						signature: n.from([30, 149, 22]),
-						pageSize: 128,
-						timeout: 400,
-						baudRate: 115200
-					},
-					mega2560: {
-						signature: n.from([30, 152, 1]),
-						pageSize: 256,
-						timeout: 400,
-						baudRate: 115200
-					}
+		    nano328pb: {
+			signature: n.from([30, 149, 22]),
+			pageSize: 128,
+			timeout: 400,
+			baudRate: 115200
+		    },
+		    mega2560: {
+			signature: n.from([30, 152, 1]),
+			pageSize: 256,
+			timeout: 400,
+			baudRate: 115200
+		}
                 };
                 const p = e => e();
                 async function d(e, t, r, n = !1, i = {}) {
