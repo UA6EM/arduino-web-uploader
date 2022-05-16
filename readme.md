@@ -11,6 +11,10 @@ Currently supports these boards:
 - uno
 - nano
 - nano with old bootloader (most chinese clones)
+- nano atmega328pb
+- nano atmega48p
+- nano atmega88p
+- nano atmega168p
 - pro mini
 
 ## The Web Serial API is available on all desktop platforms (Chrome OS, Linux, macOS, and Windows) in Chrome 89.
@@ -55,6 +59,10 @@ can be any of these:
 - `"lgt8f328p"`
 - `"nanoOldBootloader"`
 - `"nano"`
+- `"nano328pb"`
+- `"nano48p"`
+- `"nano88p"`
+- `"nano168p"`
 - `"uno"`
 - `"proMini"`
 
