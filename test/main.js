@@ -132,30 +132,30 @@
                         timeout: 400,
                         baudRate: 115200
                     },
-					nano328pb: {
-						signature: n.from([30, 149, 22]),
-						pageSize: 128,
-						timeout: 400,
-						baudRate: 115200
-					},
-					nano168p: {
-						signature: n.from([30, 148, 11]),
-						pageSize: 128,
-						timeout: 400,
-						baudRate: 115200
-					},
-					nano88p: {
-						signature: n.from([30, 147, 15]),
-						pageSize: 64,
-						timeout: 400,
-						baudRate: 115200
-					},
-					nano48p: {
-						signature: n.from([30, 146, 10]),
-						pageSize: 64,
-						timeout: 400,
-						baudRate: 115200
-					}
+		    nano328pb: {
+			signature: n.from([30, 149, 22]),
+			pageSize: 128,
+			timeout: 400,
+			baudRate: 115200
+		    },
+		    nano168p: {
+			signature: n.from([30, 148, 11]),
+			pageSize: 128,
+			timeout: 400,
+			baudRate: 115200
+		    },
+		    nano88p: {
+			signature: n.from([30, 147, 15]),
+			pageSize: 64,
+			timeout: 400,
+			baudRate: 115200
+		    },
+		    nano48p: {
+			signature: n.from([30, 146, 10]),
+			pageSize: 64,
+			timeout: 400,
+			baudRate: 115200
+		    }
                 };
                 const p = e => e();
                 async function d(e, t, r, n = !1, i = {}) {
