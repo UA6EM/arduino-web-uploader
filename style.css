@@ -120,8 +120,8 @@ button[type=submit] {
 }
 
 #fileName {
-  min-width: 175px;
-  max-width: 175px;
+  min-width: 275px;
+  max-width: 275px;
   max-height: 20px;
   color: #666;
   overflow: hidden;
@@ -157,8 +157,8 @@ button[type=submit] {
   margin-left: 461px;
   z-index: 1;
   text-align: left;
-  width: 100px;
-  max-width: 100px;
+  width: 200px;
+  max-width: 200px;
   height: 20px;
   overflow: hidden;
   border: 2px solid #f6f6f6;
