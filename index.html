@@ -12,11 +12,16 @@
 </head>
 
 <body>
-  
+ <div class="main">
+  <div class="wrapper">
+   <div class="bot"> 
   
   <h1>
     <a href="https://github.com/ua6em/arduino-web-uploader">https://github.com/ua6em/arduino-web-uploader</a>
   </h1>
+          <p>Choose a program to upload to an arduino</p>
+          <form id="uploadForm"> 
+            <label>Board:        
   <br>
   <button arduino-uploader hex-href="./test/Blink.ino.lgt8f328p.hex" board="lgt8f328p" verify>
     Upload Blink to lgt8f328p [<span class="upload-progress"></span>]
@@ -39,51 +44,11 @@
     Upload Blink to avr4809 [<span class="upload-progress"></span>]
   </button>
   <br>
-  
-  
-</body>
-
-</html>
-
-<!doctype html>
-<html>
-  <head>
-    <title>avrgirl test</title>
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Cabin+Sketch|Fugaz+One|Itim|Sacramento&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-  <div class="main">
-      <div class="wrapper">
-        <div class="bot">
-          <h1>Upload-o-matic</h1>
-          <p>Choose a program to upload to an arduino</p>
-
-          <form id="uploadForm"> 
-            <label>Board:
-              <select id="boardType">
-                <option value="uno">Uno</option>
-                <option value="mega">Mega</option>
-              </select>
-            </label>
-
-            <label>Program:
-              <div class="fileButtonWrapper">
-                <button id="fileButton" type="button" aria-controls="fileInput">Choose file</button>
-                <input id="fileInput" tabindex="-1" type="file"/>
-                <span id="fileName">no file chosen</span>
-              </div>
-            </label>
-
-            <button type="submit" id="uploadBtn">Upload!</button>
-          </form>
-        </div>
-        <div class="board">
-          <img src="images/ArduinoUno.svg"/>
-        </div>
-        <div id="pipe"></div>
-        <div id="progress"></div>
-        <div id="gear"><img src="images/gear4.svg"/></div>
-      </div>
+       </label>
+      </form>
+     </div>
     </div>
+   </div>
+ </body>
+</html>
 
