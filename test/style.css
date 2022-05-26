@@ -48,13 +48,13 @@ body {
 }
 
 .board {
-  width: 400px;
+  width: 600px;
   position: relative;
   z-index: 999;
 }
 
 .board img {
-  height: 330px;
+  height:580px;
 }
 
 .board svg {
